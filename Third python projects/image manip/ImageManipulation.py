@@ -112,8 +112,16 @@ def alterUserImage():
         #If the user's input is not in the a list they will be told it is an invalid input and prompted again
         else:
             print("Invalid input\n")
+"""
+    try: 
+        os.mkdir("x folder") 
+    except:
+        pass
+   This code will make a folder according to the user's manipulation choice, if the folder already exists, it will be passed
+"""
 
-
+            
+            
 #This function will rotate the image to how many degrees the user inputs then save it in the corresponding folder
 def rotate():
     try: 
